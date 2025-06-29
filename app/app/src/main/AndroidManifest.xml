@@ -10,7 +10,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="@string/Clover_AirBridge"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
@@ -18,7 +18,7 @@
         <activity
             android:name=".relay.PaymentRelayActivity"
             android:exported="true"
-            android:label="@string/tender_label">
+            android:label="@string/Pay_on_Flex">
             <intent-filter>
                 <action android:name="clover.intent.action.PAY" />
                 <category android:name="android.intent.category.DEFAULT" />
