@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">Clover AirBridge</string>
-    <string name="tender_label">Pay on Flex</string>
+    <string name="Clover_AirBridge">Clover AirBridge</string>
+    <string name="Pay_on_Flex">Pay on Flex</string>
 </resources>
