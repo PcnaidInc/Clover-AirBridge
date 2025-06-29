@@ -20,7 +20,12 @@
             android:exported="true"
             android:label="@string/Pay_on_Flex">
             <intent-filter>
-                <action android:name="clover.intent.action.PAY" />
+                <action android:name="clover.intent.action.MERCHANT_TENDER" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/vnd.clover.order" />
+            </intent-filter>
+                        <intent-filter>
+                <action android:name="clover.intent.action.Pay" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <data android:mimeType="vnd.android.cursor.item/vnd.clover.order" />
             </intent-filter>
