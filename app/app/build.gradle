@@ -1,13 +1,16 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+}
+
+import java.util.Properties
+import java.io.FileInputStream
+
 // This block reads your keystore.properties file. It should be at the very top.
 def keystorePropertiesFile = rootProject.file('keystore.properties')
 def keystoreProperties = new Properties()
 if (keystorePropertiesFile.exists()) {
     keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
-}
-
-plugins {
-    id 'com.android.application'
-    id 'kotlin-android'
 }
 
 android {
